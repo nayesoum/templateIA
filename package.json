@@ -1,0 +1,11 @@
+{
+  "name": "template-IA",
+  "version": "1.0.0",
+  "description": "Gemini API ##",
+  "scripts": {
+    "preinstall": "(cd backend && npm i) & (cd frontend && npm i)",
+    "start": "(cd backend && npm run dev) & (cd frontend && npm start)"
+  },
+  "author": "",
+  "license": "ISC"
+}
